@@ -11,8 +11,15 @@ local log = require('plenary.log').new {
     level = 'info',
 }
 
+---@class TDModule
+---@field config TDConfig
+---@field setup fun(TDConfig): TDModule
+
+---@class TDConfig
 local M = {}
 
+---@param args string[]
+---@return string[]
 M._make_docker_command = function(args)
     local job_opts = {
         command = 'docker',
@@ -207,6 +214,11 @@ M.docker_images = function(opts)
             end,
         })
         :find()
+end
+
+---@param config TDConfig
+M.setup = function(config)
+    M.config = config
 end
 
 return M
