@@ -47,3 +47,9 @@ This is the source code from my tutorial video:
 `<Leader>dv` will now show a **D**ocker **V**olume browser.  
 `<Leader>di` will now show a **D**ocker **I**mage browser.  
 `<Leader>dp` will now show a **D**ocker **P**rocess browser.  
+
+## Testing
+```sh
+make
+```
+
