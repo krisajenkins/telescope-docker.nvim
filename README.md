@@ -4,7 +4,7 @@ A Docker-browsing plugin for Neovim, built on Telescope.
 
 This is the source code from my tutorial video:
 
-[![YouTube Thumbnail](thumbnail.jpg?raw=true)](https://youtu.be/YnTfa3Z8Z0A)
+[![YouTube Thumbnail](thumbnail.jpg?raw=true)](https://youtu.be/HXABdG3xJW4)
 
 
 ## Installation Using [Lazy](https://github.com/folke/lazy.nvim)
